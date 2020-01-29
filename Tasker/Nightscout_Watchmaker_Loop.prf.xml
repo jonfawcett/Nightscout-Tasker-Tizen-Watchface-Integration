@@ -1,0 +1,2493 @@
+<TaskerData sr="" dvi="1" tv="5.9.1">
+	<Profile sr="prof4" ve="2">
+		<cdate>1580308774672</cdate>
+		<edate>1580308824746</edate>
+		<flags>8</flags>
+		<id>4</id>
+		<mid0>3</mid0>
+		<nme>Nightscout Watchmaker Loop</nme>
+		<Time sr="con0">
+			<fh>0</fh>
+			<fm>0</fm>
+			<rep>2</rep>
+			<repval>2</repval>
+			<th>23</th>
+			<tm>59</tm>
+		</Time>
+	</Profile>
+	<Task sr="task3">
+		<cdate>1577276166560</cdate>
+		<edate>1580308731345</edate>
+		<id>3</id>
+		<nme>Nightscout Watchmaker Loop</nme>
+		<pri>100</pri>
+		<rty>1</rty>
+		<Kid sr="Kid">
+			<launchID>17</launchID>
+			<pkg>com.fawcett.loopwatchupdater</pkg>
+			<vTarg>28</vTarg>
+			<vnme>1.0</vnme>
+		</Kid>
+		<Share sr="Share">
+			<d>Loop Watchmaker Task</d>
+			<p>false</p>
+			<t></t>
+		</Share>
+		<Action sr="act0" ve="7">
+			<code>300</code>
+			<label>Settings and Variables</label>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%NIGHTSCOUT</Str>
+			<Str sr="arg1" ve="3">Tap here and change to the unique first portion of your nightscout url</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>1446874931</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<Average>&lt;null&gt;</Average>
+					<Average-type>java.lang.String</Average-type>
+					<Field>name</Field>
+					<Field-type>java.lang.String</Field-type>
+					<FilterInvert>false</FilterInvert>
+					<FilterInvert-type>java.lang.Boolean</FilterInvert-type>
+					<GetParentValues>false</GetParentValues>
+					<GetParentValues-type>java.lang.Boolean</GetParentValues-type>
+					<InputFormat>&lt;null&gt;</InputFormat>
+					<InputFormat-type>java.lang.String</InputFormat-type>
+					<JoinOutputArray>&lt;null&gt;</JoinOutputArray>
+					<JoinOutputArray-type>java.lang.String</JoinOutputArray-type>
+					<Json>%override</Json>
+					<Json-type>java.lang.String</Json-type>
+					<JsonRootVariable>&lt;null&gt;</JsonRootVariable>
+					<JsonRootVariable-type>java.lang.String</JsonRootVariable-type>
+					<MatchField>&lt;null&gt;</MatchField>
+					<MatchField-type>java.lang.String</MatchField-type>
+					<MatchValue>&lt;null&gt;</MatchValue>
+					<MatchValue-type>java.lang.String</MatchValue-type>
+					<MatchesCaseInsensitive>false</MatchesCaseInsensitive>
+					<MatchesCaseInsensitive-type>java.lang.Boolean</MatchesCaseInsensitive-type>
+					<MatchesContainsAll>false</MatchesContainsAll>
+					<MatchesContainsAll-type>java.lang.Boolean</MatchesContainsAll-type>
+					<MatchesExact>false</MatchesExact>
+					<MatchesExact-type>java.lang.Boolean</MatchesExact-type>
+					<MatchesRegex>false</MatchesRegex>
+					<MatchesRegex-type>java.lang.Boolean</MatchesRegex-type>
+					<Max>&lt;null&gt;</Max>
+					<Max-type>java.lang.String</Max-type>
+					<MaxResults>&lt;null&gt;</MaxResults>
+					<MaxResults-type>java.lang.String</MaxResults-type>
+					<Min>&lt;null&gt;</Min>
+					<Min-type>java.lang.String</Min-type>
+					<Query>&lt;null&gt;</Query>
+					<Query-type>java.lang.String</Query-type>
+					<Separator>,</Separator>
+					<Separator-type>java.lang.String</Separator-type>
+					<SimpleMode>true</SimpleMode>
+					<SimpleMode-type>java.lang.Boolean</SimpleMode-type>
+					<SortArrayInvert>false</SortArrayInvert>
+					<SortArrayInvert-type>java.lang.Boolean</SortArrayInvert-type>
+					<SortArrayKey>&lt;null&gt;</SortArrayKey>
+					<SortArrayKey-type>java.lang.String</SortArrayKey-type>
+					<SortArrayObjectKey>&lt;null&gt;</SortArrayObjectKey>
+					<SortArrayObjectKey-type>java.lang.String</SortArrayObjectKey-type>
+					<Sum>&lt;null&gt;</Sum>
+					<Sum-type>java.lang.String</Sum-type>
+					<VariableName>%overridename</VariableName>
+					<VariableName-type>java.lang.String</VariableName-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Simple Mode: true
+Json: %override
+Fields: name
+Variable Name: %overridename
+Separator: ,</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%overridename
+Json Values
+Values of the fields you got from the json text&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>Json Field VariableName Separator plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>7ba4b354-c9f4-4165-b4a6-32877633794b</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autotools.intent.IntentJson</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autotools</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autotools.activity.ActivityConfigJson</Str>
+			<Int sr="arg3" val="60"/>
+		</Action>
+		<Action sr="act100" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BG12</Str>
+			<Str sr="arg1" ve="3">%sgv(12)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act101" ve="7">
+			<code>690818506</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>%BG12</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>tasker_var</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<tasker_var>%BG12</tasker_var>
+					<tasker_var-type>java.lang.String</tasker_var-type>
+					<tasker_var_name>%BG12</tasker_var_name>
+					<tasker_var_name-type>java.lang.String</tasker_var_name-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">slide.watchFrenzy</Str>
+			<Str sr="arg2" ve="3">slide.watchFrenzy.TaskerSendVariableActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act102" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BG13</Str>
+			<Str sr="arg1" ve="3">%sgv(13)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act103" ve="7">
+			<code>690818506</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>%BG13</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>tasker_var</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<tasker_var>%BG13</tasker_var>
+					<tasker_var-type>java.lang.String</tasker_var-type>
+					<tasker_var_name>%BG13</tasker_var_name>
+					<tasker_var_name-type>java.lang.String</tasker_var_name-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">slide.watchFrenzy</Str>
+			<Str sr="arg2" ve="3">slide.watchFrenzy.TaskerSendVariableActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act104" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BG14</Str>
+			<Str sr="arg1" ve="3">%sgv(14)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act105" ve="7">
+			<code>690818506</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>%BG14</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>tasker_var</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<tasker_var>%BG14</tasker_var>
+					<tasker_var-type>java.lang.String</tasker_var-type>
+					<tasker_var_name>%BG14</tasker_var_name>
+					<tasker_var_name-type>java.lang.String</tasker_var_name-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">slide.watchFrenzy</Str>
+			<Str sr="arg2" ve="3">slide.watchFrenzy.TaskerSendVariableActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act106" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BG15</Str>
+			<Str sr="arg1" ve="3">%sgv(15)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act107" ve="7">
+			<code>690818506</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>%BG15</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>tasker_var</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<tasker_var>%BG15</tasker_var>
+					<tasker_var-type>java.lang.String</tasker_var-type>
+					<tasker_var_name>%BG15</tasker_var_name>
+					<tasker_var_name-type>java.lang.String</tasker_var_name-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">slide.watchFrenzy</Str>
+			<Str sr="arg2" ve="3">slide.watchFrenzy.TaskerSendVariableActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act108" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BG16</Str>
+			<Str sr="arg1" ve="3">%sgv(16)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act109" ve="7">
+			<code>690818506</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>%BG16</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>tasker_var</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<tasker_var>%BG16</tasker_var>
+					<tasker_var-type>java.lang.String</tasker_var-type>
+					<tasker_var_name>%BG16</tasker_var_name>
+					<tasker_var_name-type>java.lang.String</tasker_var_name-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">slide.watchFrenzy</Str>
+			<Str sr="arg2" ve="3">slide.watchFrenzy.TaskerSendVariableActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>1446874931</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<Average>&lt;null&gt;</Average>
+					<Average-type>java.lang.String</Average-type>
+					<Field>active</Field>
+					<Field-type>java.lang.String</Field-type>
+					<FilterInvert>false</FilterInvert>
+					<FilterInvert-type>java.lang.Boolean</FilterInvert-type>
+					<GetParentValues>false</GetParentValues>
+					<GetParentValues-type>java.lang.Boolean</GetParentValues-type>
+					<InputFormat>&lt;null&gt;</InputFormat>
+					<InputFormat-type>java.lang.String</InputFormat-type>
+					<JoinOutputArray>&lt;null&gt;</JoinOutputArray>
+					<JoinOutputArray-type>java.lang.String</JoinOutputArray-type>
+					<Json>%override</Json>
+					<Json-type>java.lang.String</Json-type>
+					<JsonRootVariable>&lt;null&gt;</JsonRootVariable>
+					<JsonRootVariable-type>java.lang.String</JsonRootVariable-type>
+					<MatchField>&lt;null&gt;</MatchField>
+					<MatchField-type>java.lang.String</MatchField-type>
+					<MatchValue>&lt;null&gt;</MatchValue>
+					<MatchValue-type>java.lang.String</MatchValue-type>
+					<MatchesCaseInsensitive>false</MatchesCaseInsensitive>
+					<MatchesCaseInsensitive-type>java.lang.Boolean</MatchesCaseInsensitive-type>
+					<MatchesContainsAll>false</MatchesContainsAll>
+					<MatchesContainsAll-type>java.lang.Boolean</MatchesContainsAll-type>
+					<MatchesExact>false</MatchesExact>
+					<MatchesExact-type>java.lang.Boolean</MatchesExact-type>
+					<MatchesRegex>false</MatchesRegex>
+					<MatchesRegex-type>java.lang.Boolean</MatchesRegex-type>
+					<Max>&lt;null&gt;</Max>
+					<Max-type>java.lang.String</Max-type>
+					<MaxResults>&lt;null&gt;</MaxResults>
+					<MaxResults-type>java.lang.String</MaxResults-type>
+					<Min>&lt;null&gt;</Min>
+					<Min-type>java.lang.String</Min-type>
+					<Query>&lt;null&gt;</Query>
+					<Query-type>java.lang.String</Query-type>
+					<Separator>,</Separator>
+					<Separator-type>java.lang.String</Separator-type>
+					<SimpleMode>true</SimpleMode>
+					<SimpleMode-type>java.lang.Boolean</SimpleMode-type>
+					<SortArrayInvert>false</SortArrayInvert>
+					<SortArrayInvert-type>java.lang.Boolean</SortArrayInvert-type>
+					<SortArrayKey>&lt;null&gt;</SortArrayKey>
+					<SortArrayKey-type>java.lang.String</SortArrayKey-type>
+					<SortArrayObjectKey>&lt;null&gt;</SortArrayObjectKey>
+					<SortArrayObjectKey-type>java.lang.String</SortArrayObjectKey-type>
+					<Sum>&lt;null&gt;</Sum>
+					<Sum-type>java.lang.String</Sum-type>
+					<VariableName>overrideactive</VariableName>
+					<VariableName-type>java.lang.String</VariableName-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Simple Mode: true
+Json: %override
+Fields: active
+Variable Name: overrideactive
+Separator: ,</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%overrideactive
+Json Values
+Values of the fields you got from the json text&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>Json Field VariableName Separator plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>f97da08b-30d5-49f6-8f7c-10979b520e28</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autotools.intent.IntentJson</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autotools</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autotools.activity.ActivityConfigJson</Str>
+			<Int sr="arg3" val="60"/>
+		</Action>
+		<Action sr="act110" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BG17</Str>
+			<Str sr="arg1" ve="3">%sgv(17)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act111" ve="7">
+			<code>690818506</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>%BG17</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>tasker_var</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<tasker_var>%BG17</tasker_var>
+					<tasker_var-type>java.lang.String</tasker_var-type>
+					<tasker_var_name>%BG17</tasker_var_name>
+					<tasker_var_name-type>java.lang.String</tasker_var_name-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">slide.watchFrenzy</Str>
+			<Str sr="arg2" ve="3">slide.watchFrenzy.TaskerSendVariableActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act112" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BG18</Str>
+			<Str sr="arg1" ve="3">%sgv(18)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act113" ve="7">
+			<code>690818506</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>%BG18</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>tasker_var</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<tasker_var>%BG18</tasker_var>
+					<tasker_var-type>java.lang.String</tasker_var-type>
+					<tasker_var_name>%BG18</tasker_var_name>
+					<tasker_var_name-type>java.lang.String</tasker_var_name-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">slide.watchFrenzy</Str>
+			<Str sr="arg2" ve="3">slide.watchFrenzy.TaskerSendVariableActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act114" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BG19</Str>
+			<Str sr="arg1" ve="3">%sgv(19)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act115" ve="7">
+			<code>690818506</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>%BG19</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>tasker_var</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<tasker_var>%BG19</tasker_var>
+					<tasker_var-type>java.lang.String</tasker_var-type>
+					<tasker_var_name>%BG19</tasker_var_name>
+					<tasker_var_name-type>java.lang.String</tasker_var_name-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">slide.watchFrenzy</Str>
+			<Str sr="arg2" ve="3">slide.watchFrenzy.TaskerSendVariableActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act116" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BG20</Str>
+			<Str sr="arg1" ve="3">%sgv(20)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act117" ve="7">
+			<code>690818506</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>%BG20</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>tasker_var</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<tasker_var>%BG20</tasker_var>
+					<tasker_var-type>java.lang.String</tasker_var-type>
+					<tasker_var_name>%BG20</tasker_var_name>
+					<tasker_var_name-type>java.lang.String</tasker_var_name-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">slide.watchFrenzy</Str>
+			<Str sr="arg2" ve="3">slide.watchFrenzy.TaskerSendVariableActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%LOOPOVERRIDE</Str>
+			<Str sr="arg1" ve="3"> %overridename</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%overrideactive</lhs>
+					<op>0</op>
+					<rhs>true</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>690818506</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>%LOOPOVERRIDE</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>tasker_var</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<tasker_var>%LOOPOVERRIDE</tasker_var>
+					<tasker_var-type>java.lang.String</tasker_var-type>
+					<tasker_var_name>%LOOPOVERRIDE</tasker_var_name>
+					<tasker_var_name-type>java.lang.String</tasker_var_name-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">slide.watchFrenzy</Str>
+			<Str sr="arg2" ve="3">slide.watchFrenzy.TaskerSendVariableActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>300</code>
+			<label>Loop Battery</label>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%LOOPBATTERY</Str>
+			<Str sr="arg1" ve="3">100</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>1446874931</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<Average>&lt;null&gt;</Average>
+					<Average-type>java.lang.String</Average-type>
+					<Field>battery</Field>
+					<Field-type>java.lang.String</Field-type>
+					<FilterInvert>false</FilterInvert>
+					<FilterInvert-type>java.lang.Boolean</FilterInvert-type>
+					<GetParentValues>false</GetParentValues>
+					<GetParentValues-type>java.lang.Boolean</GetParentValues-type>
+					<InputFormat>&lt;null&gt;</InputFormat>
+					<InputFormat-type>java.lang.String</InputFormat-type>
+					<JoinOutputArray>&lt;null&gt;</JoinOutputArray>
+					<JoinOutputArray-type>java.lang.String</JoinOutputArray-type>
+					<Json>%uploader</Json>
+					<Json-type>java.lang.String</Json-type>
+					<JsonRootVariable>&lt;null&gt;</JsonRootVariable>
+					<JsonRootVariable-type>java.lang.String</JsonRootVariable-type>
+					<MatchField>&lt;null&gt;</MatchField>
+					<MatchField-type>java.lang.String</MatchField-type>
+					<MatchValue>&lt;null&gt;</MatchValue>
+					<MatchValue-type>java.lang.String</MatchValue-type>
+					<MatchesCaseInsensitive>false</MatchesCaseInsensitive>
+					<MatchesCaseInsensitive-type>java.lang.Boolean</MatchesCaseInsensitive-type>
+					<MatchesContainsAll>false</MatchesContainsAll>
+					<MatchesContainsAll-type>java.lang.Boolean</MatchesContainsAll-type>
+					<MatchesExact>false</MatchesExact>
+					<MatchesExact-type>java.lang.Boolean</MatchesExact-type>
+					<MatchesRegex>false</MatchesRegex>
+					<MatchesRegex-type>java.lang.Boolean</MatchesRegex-type>
+					<Max>&lt;null&gt;</Max>
+					<Max-type>java.lang.String</Max-type>
+					<MaxResults>&lt;null&gt;</MaxResults>
+					<MaxResults-type>java.lang.String</MaxResults-type>
+					<Min>&lt;null&gt;</Min>
+					<Min-type>java.lang.String</Min-type>
+					<Query>&lt;null&gt;</Query>
+					<Query-type>java.lang.String</Query-type>
+					<Separator>,</Separator>
+					<Separator-type>java.lang.String</Separator-type>
+					<SimpleMode>true</SimpleMode>
+					<SimpleMode-type>java.lang.Boolean</SimpleMode-type>
+					<SortArrayInvert>false</SortArrayInvert>
+					<SortArrayInvert-type>java.lang.Boolean</SortArrayInvert-type>
+					<SortArrayKey>&lt;null&gt;</SortArrayKey>
+					<SortArrayKey-type>java.lang.String</SortArrayKey-type>
+					<SortArrayObjectKey>&lt;null&gt;</SortArrayObjectKey>
+					<SortArrayObjectKey-type>java.lang.String</SortArrayObjectKey-type>
+					<Sum>&lt;null&gt;</Sum>
+					<Sum-type>java.lang.String</Sum-type>
+					<VariableName>&lt;null&gt;</VariableName>
+					<VariableName-type>java.lang.String</VariableName-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Simple Mode: true
+Json: %uploader
+Fields: battery
+Separator: ,</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%battery
+Json Values
+Values of the fields you got from the json text&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>Json Field Separator plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>d24987b7-4cba-4448-8b76-07b99bac205d</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autotools.intent.IntentJson</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autotools</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autotools.activity.ActivityConfigJson</Str>
+			<Int sr="arg3" val="60"/>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%LOOPBATTERY</Str>
+			<Str sr="arg1" ve="3">%battery</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>690818506</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>%LOOPBATTERY</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>tasker_var</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<tasker_var>%LOOPBATTERY</tasker_var>
+					<tasker_var-type>java.lang.String</tasker_var-type>
+					<tasker_var_name>%LOOPBATTERY</tasker_var_name>
+					<tasker_var_name-type>java.lang.String</tasker_var_name-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">slide.watchFrenzy</Str>
+			<Str sr="arg2" ve="3">slide.watchFrenzy.TaskerSendVariableActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>300</code>
+			<label>Read Loop json array</label>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%NIGHTSCOUTDEVICE</Str>
+			<Str sr="arg1" ve="3">https://%NIGHTSCOUT.herokuapp.com/api/v1/devicestatus.json?count=1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>1446874931</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<Average>&lt;null&gt;</Average>
+					<Average-type>java.lang.String</Average-type>
+					<Field>loop</Field>
+					<Field-type>java.lang.String</Field-type>
+					<FilterInvert>false</FilterInvert>
+					<FilterInvert-type>java.lang.Boolean</FilterInvert-type>
+					<GetParentValues>false</GetParentValues>
+					<GetParentValues-type>java.lang.Boolean</GetParentValues-type>
+					<InputFormat>&lt;null&gt;</InputFormat>
+					<InputFormat-type>java.lang.String</InputFormat-type>
+					<JoinOutputArray>&lt;null&gt;</JoinOutputArray>
+					<JoinOutputArray-type>java.lang.String</JoinOutputArray-type>
+					<Json>%json</Json>
+					<Json-type>java.lang.String</Json-type>
+					<JsonRootVariable>&lt;null&gt;</JsonRootVariable>
+					<JsonRootVariable-type>java.lang.String</JsonRootVariable-type>
+					<MatchField>&lt;null&gt;</MatchField>
+					<MatchField-type>java.lang.String</MatchField-type>
+					<MatchValue>&lt;null&gt;</MatchValue>
+					<MatchValue-type>java.lang.String</MatchValue-type>
+					<MatchesCaseInsensitive>false</MatchesCaseInsensitive>
+					<MatchesCaseInsensitive-type>java.lang.Boolean</MatchesCaseInsensitive-type>
+					<MatchesContainsAll>false</MatchesContainsAll>
+					<MatchesContainsAll-type>java.lang.Boolean</MatchesContainsAll-type>
+					<MatchesExact>false</MatchesExact>
+					<MatchesExact-type>java.lang.Boolean</MatchesExact-type>
+					<MatchesRegex>false</MatchesRegex>
+					<MatchesRegex-type>java.lang.Boolean</MatchesRegex-type>
+					<Max>&lt;null&gt;</Max>
+					<Max-type>java.lang.String</Max-type>
+					<MaxResults>&lt;null&gt;</MaxResults>
+					<MaxResults-type>java.lang.String</MaxResults-type>
+					<Min>&lt;null&gt;</Min>
+					<Min-type>java.lang.String</Min-type>
+					<Query>&lt;null&gt;</Query>
+					<Query-type>java.lang.String</Query-type>
+					<Separator>,</Separator>
+					<Separator-type>java.lang.String</Separator-type>
+					<SimpleMode>true</SimpleMode>
+					<SimpleMode-type>java.lang.Boolean</SimpleMode-type>
+					<SortArrayInvert>false</SortArrayInvert>
+					<SortArrayInvert-type>java.lang.Boolean</SortArrayInvert-type>
+					<SortArrayKey>&lt;null&gt;</SortArrayKey>
+					<SortArrayKey-type>java.lang.String</SortArrayKey-type>
+					<SortArrayObjectKey>&lt;null&gt;</SortArrayObjectKey>
+					<SortArrayObjectKey-type>java.lang.String</SortArrayObjectKey-type>
+					<Sum>&lt;null&gt;</Sum>
+					<Sum-type>java.lang.String</Sum-type>
+					<VariableName>&lt;null&gt;</VariableName>
+					<VariableName-type>java.lang.String</VariableName-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Simple Mode: true
+Json: %json
+Fields: loop
+Separator: ,</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%loop
+Json Values
+Values of the fields you got from the json text&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>Json Field Separator plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>7ba4b354-c9f4-4165-b4a6-32877633794b</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autotools.intent.IntentJson</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autotools</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autotools.activity.ActivityConfigJson</Str>
+			<Int sr="arg3" val="60"/>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>300</code>
+			<label>IOB</label>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%LOOPIOB</Str>
+			<Str sr="arg1" ve="3">~</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>1446874931</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<Average>&lt;null&gt;</Average>
+					<Average-type>java.lang.String</Average-type>
+					<Field>iob</Field>
+					<Field-type>java.lang.String</Field-type>
+					<FilterInvert>false</FilterInvert>
+					<FilterInvert-type>java.lang.Boolean</FilterInvert-type>
+					<GetParentValues>false</GetParentValues>
+					<GetParentValues-type>java.lang.Boolean</GetParentValues-type>
+					<InputFormat>&lt;null&gt;</InputFormat>
+					<InputFormat-type>java.lang.String</InputFormat-type>
+					<JoinOutputArray>&lt;null&gt;</JoinOutputArray>
+					<JoinOutputArray-type>java.lang.String</JoinOutputArray-type>
+					<Json>%loop</Json>
+					<Json-type>java.lang.String</Json-type>
+					<JsonRootVariable>&lt;null&gt;</JsonRootVariable>
+					<JsonRootVariable-type>java.lang.String</JsonRootVariable-type>
+					<MatchField>&lt;null&gt;</MatchField>
+					<MatchField-type>java.lang.String</MatchField-type>
+					<MatchValue>&lt;null&gt;</MatchValue>
+					<MatchValue-type>java.lang.String</MatchValue-type>
+					<MatchesCaseInsensitive>false</MatchesCaseInsensitive>
+					<MatchesCaseInsensitive-type>java.lang.Boolean</MatchesCaseInsensitive-type>
+					<MatchesContainsAll>false</MatchesContainsAll>
+					<MatchesContainsAll-type>java.lang.Boolean</MatchesContainsAll-type>
+					<MatchesExact>false</MatchesExact>
+					<MatchesExact-type>java.lang.Boolean</MatchesExact-type>
+					<MatchesRegex>false</MatchesRegex>
+					<MatchesRegex-type>java.lang.Boolean</MatchesRegex-type>
+					<Max>&lt;null&gt;</Max>
+					<Max-type>java.lang.String</Max-type>
+					<MaxResults>&lt;null&gt;</MaxResults>
+					<MaxResults-type>java.lang.String</MaxResults-type>
+					<Min>&lt;null&gt;</Min>
+					<Min-type>java.lang.String</Min-type>
+					<Query>&lt;null&gt;</Query>
+					<Query-type>java.lang.String</Query-type>
+					<Separator>,</Separator>
+					<Separator-type>java.lang.String</Separator-type>
+					<SimpleMode>true</SimpleMode>
+					<SimpleMode-type>java.lang.Boolean</SimpleMode-type>
+					<SortArrayInvert>false</SortArrayInvert>
+					<SortArrayInvert-type>java.lang.Boolean</SortArrayInvert-type>
+					<SortArrayKey>&lt;null&gt;</SortArrayKey>
+					<SortArrayKey-type>java.lang.String</SortArrayKey-type>
+					<SortArrayObjectKey>&lt;null&gt;</SortArrayObjectKey>
+					<SortArrayObjectKey-type>java.lang.String</SortArrayObjectKey-type>
+					<Sum>&lt;null&gt;</Sum>
+					<Sum-type>java.lang.String</Sum-type>
+					<VariableName>iobarray</VariableName>
+					<VariableName-type>java.lang.String</VariableName-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Simple Mode: true
+Json: %loop
+Fields: iob
+Variable Name: iobarray
+Separator: ,</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%iobarray
+Json Values
+Values of the fields you got from the json text&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>Json Field VariableName Separator plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>34b33efa-f468-498d-a3a9-bc81e7ab45cb</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autotools.intent.IntentJson</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autotools</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autotools.activity.ActivityConfigJson</Str>
+			<Int sr="arg3" val="60"/>
+		</Action>
+		<Action sr="act24" ve="7">
+			<code>1446874931</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<Average>&lt;null&gt;</Average>
+					<Average-type>java.lang.String</Average-type>
+					<Field>iob</Field>
+					<Field-type>java.lang.String</Field-type>
+					<FilterInvert>false</FilterInvert>
+					<FilterInvert-type>java.lang.Boolean</FilterInvert-type>
+					<GetParentValues>false</GetParentValues>
+					<GetParentValues-type>java.lang.Boolean</GetParentValues-type>
+					<InputFormat>&lt;null&gt;</InputFormat>
+					<InputFormat-type>java.lang.String</InputFormat-type>
+					<JoinOutputArray>&lt;null&gt;</JoinOutputArray>
+					<JoinOutputArray-type>java.lang.String</JoinOutputArray-type>
+					<Json>%iobarray</Json>
+					<Json-type>java.lang.String</Json-type>
+					<JsonRootVariable>&lt;null&gt;</JsonRootVariable>
+					<JsonRootVariable-type>java.lang.String</JsonRootVariable-type>
+					<MatchField>&lt;null&gt;</MatchField>
+					<MatchField-type>java.lang.String</MatchField-type>
+					<MatchValue>&lt;null&gt;</MatchValue>
+					<MatchValue-type>java.lang.String</MatchValue-type>
+					<MatchesCaseInsensitive>false</MatchesCaseInsensitive>
+					<MatchesCaseInsensitive-type>java.lang.Boolean</MatchesCaseInsensitive-type>
+					<MatchesContainsAll>false</MatchesContainsAll>
+					<MatchesContainsAll-type>java.lang.Boolean</MatchesContainsAll-type>
+					<MatchesExact>false</MatchesExact>
+					<MatchesExact-type>java.lang.Boolean</MatchesExact-type>
+					<MatchesRegex>false</MatchesRegex>
+					<MatchesRegex-type>java.lang.Boolean</MatchesRegex-type>
+					<Max>&lt;null&gt;</Max>
+					<Max-type>java.lang.String</Max-type>
+					<MaxResults>&lt;null&gt;</MaxResults>
+					<MaxResults-type>java.lang.String</MaxResults-type>
+					<Min>&lt;null&gt;</Min>
+					<Min-type>java.lang.String</Min-type>
+					<Query>&lt;null&gt;</Query>
+					<Query-type>java.lang.String</Query-type>
+					<Separator>,</Separator>
+					<Separator-type>java.lang.String</Separator-type>
+					<SimpleMode>true</SimpleMode>
+					<SimpleMode-type>java.lang.Boolean</SimpleMode-type>
+					<SortArrayInvert>false</SortArrayInvert>
+					<SortArrayInvert-type>java.lang.Boolean</SortArrayInvert-type>
+					<SortArrayKey>&lt;null&gt;</SortArrayKey>
+					<SortArrayKey-type>java.lang.String</SortArrayKey-type>
+					<SortArrayObjectKey>&lt;null&gt;</SortArrayObjectKey>
+					<SortArrayObjectKey-type>java.lang.String</SortArrayObjectKey-type>
+					<Sum>&lt;null&gt;</Sum>
+					<Sum-type>java.lang.String</Sum-type>
+					<VariableName>&lt;null&gt;</VariableName>
+					<VariableName-type>java.lang.String</VariableName-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Simple Mode: true
+Json: %iobarray
+Fields: iob
+Separator: ,</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%iob
+Json Values
+Values of the fields you got from the json text&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>Json Field Separator plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>db964976-7829-4275-8b93-ad40084e02c2</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autotools.intent.IntentJson</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autotools</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autotools.activity.ActivityConfigJson</Str>
+			<Int sr="arg3" val="60"/>
+		</Action>
+		<Action sr="act25" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%LOOPIOB</Str>
+			<Str sr="arg1" ve="3">%iob</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="1"/>
+		</Action>
+		<Action sr="act26" ve="7">
+			<code>690818506</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>%LOOPIOB</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>tasker_var</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<tasker_var>%LOOPIOB</tasker_var>
+					<tasker_var-type>java.lang.String</tasker_var-type>
+					<tasker_var_name>%LOOPIOB</tasker_var_name>
+					<tasker_var_name-type>java.lang.String</tasker_var_name-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">slide.watchFrenzy</Str>
+			<Str sr="arg2" ve="3">slide.watchFrenzy.TaskerSendVariableActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act27" ve="7">
+			<code>300</code>
+			<label>COB</label>
+		</Action>
+		<Action sr="act28" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%LOOPCOB</Str>
+			<Str sr="arg1" ve="3">~</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act29" ve="7">
+			<code>1446874931</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<Average>&lt;null&gt;</Average>
+					<Average-type>java.lang.String</Average-type>
+					<Field>cob</Field>
+					<Field-type>java.lang.String</Field-type>
+					<FilterInvert>false</FilterInvert>
+					<FilterInvert-type>java.lang.Boolean</FilterInvert-type>
+					<GetParentValues>false</GetParentValues>
+					<GetParentValues-type>java.lang.Boolean</GetParentValues-type>
+					<InputFormat>&lt;null&gt;</InputFormat>
+					<InputFormat-type>java.lang.String</InputFormat-type>
+					<JoinOutputArray>&lt;null&gt;</JoinOutputArray>
+					<JoinOutputArray-type>java.lang.String</JoinOutputArray-type>
+					<Json>%loop</Json>
+					<Json-type>java.lang.String</Json-type>
+					<JsonRootVariable>&lt;null&gt;</JsonRootVariable>
+					<JsonRootVariable-type>java.lang.String</JsonRootVariable-type>
+					<MatchField>&lt;null&gt;</MatchField>
+					<MatchField-type>java.lang.String</MatchField-type>
+					<MatchValue>&lt;null&gt;</MatchValue>
+					<MatchValue-type>java.lang.String</MatchValue-type>
+					<MatchesCaseInsensitive>false</MatchesCaseInsensitive>
+					<MatchesCaseInsensitive-type>java.lang.Boolean</MatchesCaseInsensitive-type>
+					<MatchesContainsAll>false</MatchesContainsAll>
+					<MatchesContainsAll-type>java.lang.Boolean</MatchesContainsAll-type>
+					<MatchesExact>false</MatchesExact>
+					<MatchesExact-type>java.lang.Boolean</MatchesExact-type>
+					<MatchesRegex>false</MatchesRegex>
+					<MatchesRegex-type>java.lang.Boolean</MatchesRegex-type>
+					<Max>&lt;null&gt;</Max>
+					<Max-type>java.lang.String</Max-type>
+					<MaxResults>&lt;null&gt;</MaxResults>
+					<MaxResults-type>java.lang.String</MaxResults-type>
+					<Min>&lt;null&gt;</Min>
+					<Min-type>java.lang.String</Min-type>
+					<Query>&lt;null&gt;</Query>
+					<Query-type>java.lang.String</Query-type>
+					<Separator>,</Separator>
+					<Separator-type>java.lang.String</Separator-type>
+					<SimpleMode>true</SimpleMode>
+					<SimpleMode-type>java.lang.Boolean</SimpleMode-type>
+					<SortArrayInvert>false</SortArrayInvert>
+					<SortArrayInvert-type>java.lang.Boolean</SortArrayInvert-type>
+					<SortArrayKey>&lt;null&gt;</SortArrayKey>
+					<SortArrayKey-type>java.lang.String</SortArrayKey-type>
+					<SortArrayObjectKey>&lt;null&gt;</SortArrayObjectKey>
+					<SortArrayObjectKey-type>java.lang.String</SortArrayObjectKey-type>
+					<Sum>&lt;null&gt;</Sum>
+					<Sum-type>java.lang.String</Sum-type>
+					<VariableName>%cobarray</VariableName>
+					<VariableName-type>java.lang.String</VariableName-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Simple Mode: true
+Json: %loop
+Fields: cob
+Variable Name: %cobarray
+Separator: ,</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%cobarray
+Json Values
+Values of the fields you got from the json text&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>Json Field VariableName Separator plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>1dd7760e-89b2-4b05-9a28-3dc36d08ad92</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autotools.intent.IntentJson</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autotools</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autotools.activity.ActivityConfigJson</Str>
+			<Int sr="arg3" val="60"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%NIGHTSCOUTENTRIES</Str>
+			<Str sr="arg1" ve="3">https://%NIGHTSCOUT.herokuapp.com/api/v1/entries.json?count=20</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act30" ve="7">
+			<code>1446874931</code>
+			<se>false</se>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<Average>&lt;null&gt;</Average>
+					<Average-type>java.lang.String</Average-type>
+					<Field>cob</Field>
+					<Field-type>java.lang.String</Field-type>
+					<FilterInvert>false</FilterInvert>
+					<FilterInvert-type>java.lang.Boolean</FilterInvert-type>
+					<GetParentValues>false</GetParentValues>
+					<GetParentValues-type>java.lang.Boolean</GetParentValues-type>
+					<InputFormat>&lt;null&gt;</InputFormat>
+					<InputFormat-type>java.lang.String</InputFormat-type>
+					<JoinOutputArray>&lt;null&gt;</JoinOutputArray>
+					<JoinOutputArray-type>java.lang.String</JoinOutputArray-type>
+					<Json>%cobarray</Json>
+					<Json-type>java.lang.String</Json-type>
+					<JsonRootVariable>&lt;null&gt;</JsonRootVariable>
+					<JsonRootVariable-type>java.lang.String</JsonRootVariable-type>
+					<MatchField>&lt;null&gt;</MatchField>
+					<MatchField-type>java.lang.String</MatchField-type>
+					<MatchValue>&lt;null&gt;</MatchValue>
+					<MatchValue-type>java.lang.String</MatchValue-type>
+					<MatchesCaseInsensitive>false</MatchesCaseInsensitive>
+					<MatchesCaseInsensitive-type>java.lang.Boolean</MatchesCaseInsensitive-type>
+					<MatchesContainsAll>false</MatchesContainsAll>
+					<MatchesContainsAll-type>java.lang.Boolean</MatchesContainsAll-type>
+					<MatchesExact>false</MatchesExact>
+					<MatchesExact-type>java.lang.Boolean</MatchesExact-type>
+					<MatchesRegex>false</MatchesRegex>
+					<MatchesRegex-type>java.lang.Boolean</MatchesRegex-type>
+					<Max>&lt;null&gt;</Max>
+					<Max-type>java.lang.String</Max-type>
+					<MaxResults>&lt;null&gt;</MaxResults>
+					<MaxResults-type>java.lang.String</MaxResults-type>
+					<Min>&lt;null&gt;</Min>
+					<Min-type>java.lang.String</Min-type>
+					<Query>&lt;null&gt;</Query>
+					<Query-type>java.lang.String</Query-type>
+					<Separator>,</Separator>
+					<Separator-type>java.lang.String</Separator-type>
+					<SimpleMode>true</SimpleMode>
+					<SimpleMode-type>java.lang.Boolean</SimpleMode-type>
+					<SortArrayInvert>false</SortArrayInvert>
+					<SortArrayInvert-type>java.lang.Boolean</SortArrayInvert-type>
+					<SortArrayKey>&lt;null&gt;</SortArrayKey>
+					<SortArrayKey-type>java.lang.String</SortArrayKey-type>
+					<SortArrayObjectKey>&lt;null&gt;</SortArrayObjectKey>
+					<SortArrayObjectKey-type>java.lang.String</SortArrayObjectKey-type>
+					<Sum>&lt;null&gt;</Sum>
+					<Sum-type>java.lang.String</Sum-type>
+					<VariableName>&lt;null&gt;</VariableName>
+					<VariableName-type>java.lang.String</VariableName-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Simple Mode: true
+Json: %cobarray
+Fields: cob
+Separator: ,</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%cob
+Json Values
+Values of the fields you got from the json text&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>Json Field Separator plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>224aba32-66ba-4c59-9aee-f08d55da0012</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autotools.intent.IntentJson</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autotools</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autotools.activity.ActivityConfigJson</Str>
+			<Int sr="arg3" val="60"/>
+		</Action>
+		<Action sr="act31" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%LOOPCOB</Str>
+			<Str sr="arg1" ve="3">%cob</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="1"/>
+		</Action>
+		<Action sr="act32" ve="7">
+			<code>690818506</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>%LOOPCOB</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>tasker_var</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<tasker_var>%LOOPCOB</tasker_var>
+					<tasker_var-type>java.lang.String</tasker_var-type>
+					<tasker_var_name>%LOOPCOB</tasker_var_name>
+					<tasker_var_name-type>java.lang.String</tasker_var_name-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">slide.watchFrenzy</Str>
+			<Str sr="arg2" ve="3">slide.watchFrenzy.TaskerSendVariableActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act33" ve="7">
+			<code>300</code>
+			<label>30 Min Prediction</label>
+		</Action>
+		<Action sr="act34" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%LOOP30MIN</Str>
+			<Str sr="arg1" ve="3">100</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act35" ve="7">
+			<code>1446874931</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<Average>&lt;null&gt;</Average>
+					<Average-type>java.lang.String</Average-type>
+					<Field>predicted</Field>
+					<Field-type>java.lang.String</Field-type>
+					<FilterInvert>false</FilterInvert>
+					<FilterInvert-type>java.lang.Boolean</FilterInvert-type>
+					<GetParentValues>false</GetParentValues>
+					<GetParentValues-type>java.lang.Boolean</GetParentValues-type>
+					<InputFormat>&lt;null&gt;</InputFormat>
+					<InputFormat-type>java.lang.String</InputFormat-type>
+					<JoinOutputArray>&lt;null&gt;</JoinOutputArray>
+					<JoinOutputArray-type>java.lang.String</JoinOutputArray-type>
+					<Json>%loop</Json>
+					<Json-type>java.lang.String</Json-type>
+					<JsonRootVariable>&lt;null&gt;</JsonRootVariable>
+					<JsonRootVariable-type>java.lang.String</JsonRootVariable-type>
+					<MatchField>&lt;null&gt;</MatchField>
+					<MatchField-type>java.lang.String</MatchField-type>
+					<MatchValue>&lt;null&gt;</MatchValue>
+					<MatchValue-type>java.lang.String</MatchValue-type>
+					<MatchesCaseInsensitive>false</MatchesCaseInsensitive>
+					<MatchesCaseInsensitive-type>java.lang.Boolean</MatchesCaseInsensitive-type>
+					<MatchesContainsAll>false</MatchesContainsAll>
+					<MatchesContainsAll-type>java.lang.Boolean</MatchesContainsAll-type>
+					<MatchesExact>false</MatchesExact>
+					<MatchesExact-type>java.lang.Boolean</MatchesExact-type>
+					<MatchesRegex>false</MatchesRegex>
+					<MatchesRegex-type>java.lang.Boolean</MatchesRegex-type>
+					<Max>&lt;null&gt;</Max>
+					<Max-type>java.lang.String</Max-type>
+					<MaxResults>&lt;null&gt;</MaxResults>
+					<MaxResults-type>java.lang.String</MaxResults-type>
+					<Min>&lt;null&gt;</Min>
+					<Min-type>java.lang.String</Min-type>
+					<Query>&lt;null&gt;</Query>
+					<Query-type>java.lang.String</Query-type>
+					<Separator>,</Separator>
+					<Separator-type>java.lang.String</Separator-type>
+					<SimpleMode>true</SimpleMode>
+					<SimpleMode-type>java.lang.Boolean</SimpleMode-type>
+					<SortArrayInvert>false</SortArrayInvert>
+					<SortArrayInvert-type>java.lang.Boolean</SortArrayInvert-type>
+					<SortArrayKey>&lt;null&gt;</SortArrayKey>
+					<SortArrayKey-type>java.lang.String</SortArrayKey-type>
+					<SortArrayObjectKey>&lt;null&gt;</SortArrayObjectKey>
+					<SortArrayObjectKey-type>java.lang.String</SortArrayObjectKey-type>
+					<Sum>&lt;null&gt;</Sum>
+					<Sum-type>java.lang.String</Sum-type>
+					<VariableName>predictedarray</VariableName>
+					<VariableName-type>java.lang.String</VariableName-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Simple Mode: true
+Json: %loop
+Fields: predicted
+Variable Name: predictedarray
+Separator: ,</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%predictedarray
+Json Values
+Values of the fields you got from the json text&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>Json Field VariableName Separator plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>88da2f68-1b10-46a3-ad9a-4c5dcbef214c</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autotools.intent.IntentJson</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autotools</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autotools.activity.ActivityConfigJson</Str>
+			<Int sr="arg3" val="60"/>
+		</Action>
+		<Action sr="act36" ve="7">
+			<code>1446874931</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<Average>&lt;null&gt;</Average>
+					<Average-type>java.lang.String</Average-type>
+					<Field>values()</Field>
+					<Field-type>java.lang.String</Field-type>
+					<FilterInvert>false</FilterInvert>
+					<FilterInvert-type>java.lang.Boolean</FilterInvert-type>
+					<GetParentValues>false</GetParentValues>
+					<GetParentValues-type>java.lang.Boolean</GetParentValues-type>
+					<InputFormat>&lt;null&gt;</InputFormat>
+					<InputFormat-type>java.lang.String</InputFormat-type>
+					<JoinOutputArray>&lt;null&gt;</JoinOutputArray>
+					<JoinOutputArray-type>java.lang.String</JoinOutputArray-type>
+					<Json>%predictedarray</Json>
+					<Json-type>java.lang.String</Json-type>
+					<JsonRootVariable>&lt;null&gt;</JsonRootVariable>
+					<JsonRootVariable-type>java.lang.String</JsonRootVariable-type>
+					<MatchField>&lt;null&gt;</MatchField>
+					<MatchField-type>java.lang.String</MatchField-type>
+					<MatchValue>&lt;null&gt;</MatchValue>
+					<MatchValue-type>java.lang.String</MatchValue-type>
+					<MatchesCaseInsensitive>false</MatchesCaseInsensitive>
+					<MatchesCaseInsensitive-type>java.lang.Boolean</MatchesCaseInsensitive-type>
+					<MatchesContainsAll>false</MatchesContainsAll>
+					<MatchesContainsAll-type>java.lang.Boolean</MatchesContainsAll-type>
+					<MatchesExact>false</MatchesExact>
+					<MatchesExact-type>java.lang.Boolean</MatchesExact-type>
+					<MatchesRegex>false</MatchesRegex>
+					<MatchesRegex-type>java.lang.Boolean</MatchesRegex-type>
+					<Max>&lt;null&gt;</Max>
+					<Max-type>java.lang.String</Max-type>
+					<MaxResults>7</MaxResults>
+					<MaxResults-type>java.lang.String</MaxResults-type>
+					<Min>&lt;null&gt;</Min>
+					<Min-type>java.lang.String</Min-type>
+					<Query>&lt;null&gt;</Query>
+					<Query-type>java.lang.String</Query-type>
+					<Separator>,</Separator>
+					<Separator-type>java.lang.String</Separator-type>
+					<SimpleMode>true</SimpleMode>
+					<SimpleMode-type>java.lang.Boolean</SimpleMode-type>
+					<SortArrayInvert>false</SortArrayInvert>
+					<SortArrayInvert-type>java.lang.Boolean</SortArrayInvert-type>
+					<SortArrayKey>&lt;null&gt;</SortArrayKey>
+					<SortArrayKey-type>java.lang.String</SortArrayKey-type>
+					<SortArrayObjectKey>&lt;null&gt;</SortArrayObjectKey>
+					<SortArrayObjectKey-type>java.lang.String</SortArrayObjectKey-type>
+					<Sum>&lt;null&gt;</Sum>
+					<Sum-type>java.lang.String</Sum-type>
+					<VariableName>&lt;null&gt;</VariableName>
+					<VariableName-type>java.lang.String</VariableName-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Simple Mode: true
+Json: %predictedarray
+Fields: values()
+Max Results: 7
+Separator: ,</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%values()
+Json Values
+Values of the fields you got from the json text&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>Json Field MaxResults Separator plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>15ae4b9f-03c2-4035-ace1-a8b12d8b6814</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autotools.intent.IntentJson</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autotools</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autotools.activity.ActivityConfigJson</Str>
+			<Int sr="arg3" val="60"/>
+		</Action>
+		<Action sr="act37" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%LOOP30MIN</Str>
+			<Str sr="arg1" ve="3">%values(&lt;)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act38" ve="7">
+			<code>690818506</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>%LOOP30MIN</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>tasker_var</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<tasker_var>%LOOP30MIN</tasker_var>
+					<tasker_var-type>java.lang.String</tasker_var-type>
+					<tasker_var_name>%LOOP30MIN</tasker_var_name>
+					<tasker_var_name-type>java.lang.String</tasker_var_name-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">slide.watchFrenzy</Str>
+			<Str sr="arg2" ve="3">slide.watchFrenzy.TaskerSendVariableActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act39" ve="7">
+			<code>300</code>
+			<label>Read Last 2 NS BG Entries</label>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%NIGHTSCOUTTREATMENTS</Str>
+			<Str sr="arg1" ve="3">https://%NIGHTSCOUT.herokuapp.com/api/v1/treatments.json?count=1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act40" ve="7">
+			<code>1446874931</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<Average>&lt;null&gt;</Average>
+					<Average-type>java.lang.String</Average-type>
+					<Field>sgv(),trend,direction,date</Field>
+					<Field-type>java.lang.String</Field-type>
+					<FilterInvert>false</FilterInvert>
+					<FilterInvert-type>java.lang.Boolean</FilterInvert-type>
+					<GetParentValues>false</GetParentValues>
+					<GetParentValues-type>java.lang.Boolean</GetParentValues-type>
+					<InputFormat>&lt;null&gt;</InputFormat>
+					<InputFormat-type>java.lang.String</InputFormat-type>
+					<JoinOutputArray>&lt;null&gt;</JoinOutputArray>
+					<JoinOutputArray-type>java.lang.String</JoinOutputArray-type>
+					<Json>%NIGHTSCOUTENTRIES</Json>
+					<Json-type>java.lang.String</Json-type>
+					<JsonRootVariable>NightscoutBG</JsonRootVariable>
+					<JsonRootVariable-type>java.lang.String</JsonRootVariable-type>
+					<MatchField>&lt;null&gt;</MatchField>
+					<MatchField-type>java.lang.String</MatchField-type>
+					<MatchValue>&lt;null&gt;</MatchValue>
+					<MatchValue-type>java.lang.String</MatchValue-type>
+					<MatchesCaseInsensitive>false</MatchesCaseInsensitive>
+					<MatchesCaseInsensitive-type>java.lang.Boolean</MatchesCaseInsensitive-type>
+					<MatchesContainsAll>false</MatchesContainsAll>
+					<MatchesContainsAll-type>java.lang.Boolean</MatchesContainsAll-type>
+					<MatchesExact>false</MatchesExact>
+					<MatchesExact-type>java.lang.Boolean</MatchesExact-type>
+					<MatchesRegex>false</MatchesRegex>
+					<MatchesRegex-type>java.lang.Boolean</MatchesRegex-type>
+					<Max>&lt;null&gt;</Max>
+					<Max-type>java.lang.String</Max-type>
+					<MaxResults>&lt;null&gt;</MaxResults>
+					<MaxResults-type>java.lang.String</MaxResults-type>
+					<Min>&lt;null&gt;</Min>
+					<Min-type>java.lang.String</Min-type>
+					<Query>&lt;null&gt;</Query>
+					<Query-type>java.lang.String</Query-type>
+					<Separator>,</Separator>
+					<Separator-type>java.lang.String</Separator-type>
+					<SimpleMode>true</SimpleMode>
+					<SimpleMode-type>java.lang.Boolean</SimpleMode-type>
+					<SortArrayInvert>false</SortArrayInvert>
+					<SortArrayInvert-type>java.lang.Boolean</SortArrayInvert-type>
+					<SortArrayKey>&lt;null&gt;</SortArrayKey>
+					<SortArrayKey-type>java.lang.String</SortArrayKey-type>
+					<SortArrayObjectKey>&lt;null&gt;</SortArrayObjectKey>
+					<SortArrayObjectKey-type>java.lang.String</SortArrayObjectKey-type>
+					<Sum>&lt;null&gt;</Sum>
+					<Sum-type>java.lang.String</Sum-type>
+					<VariableName>&lt;null&gt;</VariableName>
+					<VariableName-type>java.lang.String</VariableName-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Simple Mode: true
+Json: %NIGHTSCOUTENTRIES
+Fields: sgv(),trend,direction,date
+Json Root Variable: NightscoutBG
+Separator: ,</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%date
+Json Values
+Values of the fields you got from the json text&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%direction
+Json Values
+Values of the fields you got from the json text&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%nightscoutbg
+Json Root
+The whole json object that was used as input&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%sgv()
+Json Values
+Values of the fields you got from the json text&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%trend
+Json Values
+Values of the fields you got from the json text&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>Json Field Separator JsonRootVariable plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>9a81367b-6781-4aa8-9ae6-24153d230d9f</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autotools.intent.IntentJson</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autotools</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autotools.activity.ActivityConfigJson</Str>
+			<Int sr="arg3" val="60"/>
+		</Action>
+		<Action sr="act41" ve="7">
+			<code>300</code>
+			<label>BG Date (on-watch Min Ago calculation)</label>
+		</Action>
+		<Action sr="act42" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%LOOPBGDATE</Str>
+			<Str sr="arg1" ve="3">%date/1000</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act43" ve="7">
+			<code>690818506</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>%LOOPBGDATE</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>tasker_var</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<tasker_var>%LOOPBGDATE</tasker_var>
+					<tasker_var-type>java.lang.String</tasker_var-type>
+					<tasker_var_name>%LOOPBGDATE</tasker_var_name>
+					<tasker_var_name-type>java.lang.String</tasker_var_name-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">slide.watchFrenzy</Str>
+			<Str sr="arg2" ve="3">slide.watchFrenzy.TaskerSendVariableActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act44" ve="7">
+			<code>300</code>
+			<label>BG</label>
+		</Action>
+		<Action sr="act45" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%LOOPBG</Str>
+			<Str sr="arg1" ve="3">%sgv(1)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act46" ve="7">
+			<code>690818506</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>%LOOPBG</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>tasker_var</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<tasker_var>%LOOPBG</tasker_var>
+					<tasker_var-type>java.lang.String</tasker_var-type>
+					<tasker_var_name>%LOOPBG</tasker_var_name>
+					<tasker_var_name-type>java.lang.String</tasker_var_name-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">slide.watchFrenzy</Str>
+			<Str sr="arg2" ve="3">slide.watchFrenzy.TaskerSendVariableActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act47" ve="7">
+			<code>300</code>
+			<label>Direction Arrow</label>
+		</Action>
+		<Action sr="act48" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%LOOPDIRECTION</Str>
+			<Str sr="arg1" ve="3">~</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act49" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%LOOPDIRECTION</Str>
+			<Str sr="arg1" ve="3">➡</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%direction</lhs>
+					<op>0</op>
+					<rhs>Flat</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>300</code>
+			<label>Read NS Device Status</label>
+		</Action>
+		<Action sr="act50" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%LOOPDIRECTION</Str>
+			<Str sr="arg1" ve="3">⬇</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%direction</lhs>
+					<op>0</op>
+					<rhs>SingleDown</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act51" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%LOOPDIRECTION</Str>
+			<Str sr="arg1" ve="3">⬇⬇</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%direction</lhs>
+					<op>0</op>
+					<rhs>DoubleDown</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act52" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%LOOPDIRECTION</Str>
+			<Str sr="arg1" ve="3">⬆</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%direction</lhs>
+					<op>0</op>
+					<rhs>SingleUp</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act53" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%LOOPDIRECTION</Str>
+			<Str sr="arg1" ve="3">⬆⬆</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%direction</lhs>
+					<op>0</op>
+					<rhs>DoubleUp</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act54" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%LOOPDIRECTION</Str>
+			<Str sr="arg1" ve="3">↘</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%direction</lhs>
+					<op>0</op>
+					<rhs>FortyFiveDown</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act55" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%LOOPDIRECTION</Str>
+			<Str sr="arg1" ve="3">↗</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%direction</lhs>
+					<op>0</op>
+					<rhs>FortyFiveUp</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act56" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%LOOPDIRECTIONTEXT</Str>
+			<Str sr="arg1" ve="3">%direction</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act57" ve="7">
+			<code>690818506</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>%LOOPDIRECTIONTEXT</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>tasker_var</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<tasker_var>%LOOPDIRECTIONTEXT</tasker_var>
+					<tasker_var-type>java.lang.String</tasker_var-type>
+					<tasker_var_name>%LOOPDIRECTIONTEXT</tasker_var_name>
+					<tasker_var_name-type>java.lang.String</tasker_var_name-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">slide.watchFrenzy</Str>
+			<Str sr="arg2" ve="3">slide.watchFrenzy.TaskerSendVariableActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act58" ve="7">
+			<code>690818506</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>%LOOPDIRECTION</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>tasker_var</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<tasker_var>%LOOPDIRECTION</tasker_var>
+					<tasker_var-type>java.lang.String</tasker_var-type>
+					<tasker_var_name>%LOOPDIRECTION</tasker_var_name>
+					<tasker_var_name-type>java.lang.String</tasker_var_name-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">slide.watchFrenzy</Str>
+			<Str sr="arg2" ve="3">slide.watchFrenzy.TaskerSendVariableActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act59" ve="7">
+			<code>300</code>
+			<label>Delta</label>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>1446874931</code>
+			<se>false</se>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<Average>&lt;null&gt;</Average>
+					<Average-type>java.lang.String</Average-type>
+					<Field>&lt;null&gt;</Field>
+					<Field-type>java.lang.String</Field-type>
+					<FilterInvert>false</FilterInvert>
+					<FilterInvert-type>java.lang.Boolean</FilterInvert-type>
+					<GetParentValues>false</GetParentValues>
+					<GetParentValues-type>java.lang.Boolean</GetParentValues-type>
+					<InputFormat>0</InputFormat>
+					<InputFormat-type>java.lang.String</InputFormat-type>
+					<JoinOutputArray>&lt;null&gt;</JoinOutputArray>
+					<JoinOutputArray-type>java.lang.String</JoinOutputArray-type>
+					<Json>%NIGHTSCOUTDEVICE</Json>
+					<Json-type>java.lang.String</Json-type>
+					<JsonRootVariable>json</JsonRootVariable>
+					<JsonRootVariable-type>java.lang.String</JsonRootVariable-type>
+					<MatchField>&lt;null&gt;</MatchField>
+					<MatchField-type>java.lang.String</MatchField-type>
+					<MatchValue>&lt;null&gt;</MatchValue>
+					<MatchValue-type>java.lang.String</MatchValue-type>
+					<MatchesCaseInsensitive>false</MatchesCaseInsensitive>
+					<MatchesCaseInsensitive-type>java.lang.Boolean</MatchesCaseInsensitive-type>
+					<MatchesContainsAll>false</MatchesContainsAll>
+					<MatchesContainsAll-type>java.lang.Boolean</MatchesContainsAll-type>
+					<MatchesExact>false</MatchesExact>
+					<MatchesExact-type>java.lang.Boolean</MatchesExact-type>
+					<MatchesRegex>false</MatchesRegex>
+					<MatchesRegex-type>java.lang.Boolean</MatchesRegex-type>
+					<Max>&lt;null&gt;</Max>
+					<Max-type>java.lang.String</Max-type>
+					<MaxResults>&lt;null&gt;</MaxResults>
+					<MaxResults-type>java.lang.String</MaxResults-type>
+					<Min>&lt;null&gt;</Min>
+					<Min-type>java.lang.String</Min-type>
+					<Query>&lt;null&gt;</Query>
+					<Query-type>java.lang.String</Query-type>
+					<Separator>,</Separator>
+					<Separator-type>java.lang.String</Separator-type>
+					<SimpleMode>true</SimpleMode>
+					<SimpleMode-type>java.lang.Boolean</SimpleMode-type>
+					<SortArrayInvert>false</SortArrayInvert>
+					<SortArrayInvert-type>java.lang.Boolean</SortArrayInvert-type>
+					<SortArrayKey>&lt;null&gt;</SortArrayKey>
+					<SortArrayKey-type>java.lang.String</SortArrayKey-type>
+					<SortArrayObjectKey>&lt;null&gt;</SortArrayObjectKey>
+					<SortArrayObjectKey-type>java.lang.String</SortArrayObjectKey-type>
+					<Sum>&lt;null&gt;</Sum>
+					<Sum-type>java.lang.String</Sum-type>
+					<VariableName>&lt;null&gt;</VariableName>
+					<VariableName-type>java.lang.String</VariableName-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Input Format: Json
+Simple Mode: true
+Json: %NIGHTSCOUTDEVICE
+Json Root Variable: json
+Separator: ,</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%json
+Json Root
+The whole json object that was used as input&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>Json Separator JsonRootVariable InputFormat plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>a9197a5d-dccb-4006-bddd-c93a2136938b</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autotools.intent.IntentJson</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autotools</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autotools.activity.ActivityConfigJson</Str>
+			<Int sr="arg3" val="60"/>
+		</Action>
+		<Action sr="act60" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%LOOPDELTA</Str>
+			<Str sr="arg1" ve="3">~</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act61" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%deltamath</Str>
+			<Str sr="arg1" ve="3">%sgv(1)-%sgv(2)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act62" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%LOOPDELTA</Str>
+			<Str sr="arg1" ve="3">+%deltamath</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%deltamath</lhs>
+					<op>7</op>
+					<rhs>-1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act63" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%LOOPDELTA</Str>
+			<Str sr="arg1" ve="3">%deltamath</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%deltamath</lhs>
+					<op>6</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act64" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%deltamath</Str>
+			<Str sr="arg1" ve="3">-</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act65" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%DELTANOSYM</Str>
+			<Str sr="arg1" ve="3">%deltamath</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act66" ve="7">
+			<code>690818506</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>%DELTANOSYM</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>tasker_var</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<tasker_var>%DELTANOSYM</tasker_var>
+					<tasker_var-type>java.lang.String</tasker_var-type>
+					<tasker_var_name>%DELTANOSYM</tasker_var_name>
+					<tasker_var_name-type>java.lang.String</tasker_var_name-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">slide.watchFrenzy</Str>
+			<Str sr="arg2" ve="3">slide.watchFrenzy.TaskerSendVariableActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act67" ve="7">
+			<code>690818506</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>%LOOPDELTA</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>tasker_var</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<tasker_var>%LOOPDELTA</tasker_var>
+					<tasker_var-type>java.lang.String</tasker_var-type>
+					<tasker_var_name>%LOOPDELTA</tasker_var_name>
+					<tasker_var_name-type>java.lang.String</tasker_var_name-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">slide.watchFrenzy</Str>
+			<Str sr="arg2" ve="3">slide.watchFrenzy.TaskerSendVariableActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act68" ve="7">
+			<code>300</code>
+			<label>Temp Basal</label>
+		</Action>
+		<Action sr="act69" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%LOOPTEMPBASAL</Str>
+			<Str sr="arg1" ve="3">~</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>300</code>
+			<label>Overrides</label>
+		</Action>
+		<Action sr="act70" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%timestamp</Str>
+			<Str sr="arg1" ve="3">2000:01:01T12:00:01Z</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act71" ve="7">
+			<code>1446874931</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<Average>&lt;null&gt;</Average>
+					<Average-type>java.lang.String</Average-type>
+					<Field>rate,duration,timestamp</Field>
+					<Field-type>java.lang.String</Field-type>
+					<FilterInvert>false</FilterInvert>
+					<FilterInvert-type>java.lang.Boolean</FilterInvert-type>
+					<GetParentValues>false</GetParentValues>
+					<GetParentValues-type>java.lang.Boolean</GetParentValues-type>
+					<InputFormat>&lt;null&gt;</InputFormat>
+					<InputFormat-type>java.lang.String</InputFormat-type>
+					<JoinOutputArray>&lt;null&gt;</JoinOutputArray>
+					<JoinOutputArray-type>java.lang.String</JoinOutputArray-type>
+					<Json>%NIGHTSCOUTTREATMENTS&amp;find[eventType]=Temp%20Basal</Json>
+					<Json-type>java.lang.String</Json-type>
+					<JsonRootVariable>&lt;null&gt;</JsonRootVariable>
+					<JsonRootVariable-type>java.lang.String</JsonRootVariable-type>
+					<MatchField>&lt;null&gt;</MatchField>
+					<MatchField-type>java.lang.String</MatchField-type>
+					<MatchValue>&lt;null&gt;</MatchValue>
+					<MatchValue-type>java.lang.String</MatchValue-type>
+					<MatchesCaseInsensitive>false</MatchesCaseInsensitive>
+					<MatchesCaseInsensitive-type>java.lang.Boolean</MatchesCaseInsensitive-type>
+					<MatchesContainsAll>false</MatchesContainsAll>
+					<MatchesContainsAll-type>java.lang.Boolean</MatchesContainsAll-type>
+					<MatchesExact>false</MatchesExact>
+					<MatchesExact-type>java.lang.Boolean</MatchesExact-type>
+					<MatchesRegex>false</MatchesRegex>
+					<MatchesRegex-type>java.lang.Boolean</MatchesRegex-type>
+					<Max>&lt;null&gt;</Max>
+					<Max-type>java.lang.String</Max-type>
+					<MaxResults>&lt;null&gt;</MaxResults>
+					<MaxResults-type>java.lang.String</MaxResults-type>
+					<Min>&lt;null&gt;</Min>
+					<Min-type>java.lang.String</Min-type>
+					<Query>&lt;null&gt;</Query>
+					<Query-type>java.lang.String</Query-type>
+					<Separator>,</Separator>
+					<Separator-type>java.lang.String</Separator-type>
+					<SimpleMode>true</SimpleMode>
+					<SimpleMode-type>java.lang.Boolean</SimpleMode-type>
+					<SortArrayInvert>false</SortArrayInvert>
+					<SortArrayInvert-type>java.lang.Boolean</SortArrayInvert-type>
+					<SortArrayKey>&lt;null&gt;</SortArrayKey>
+					<SortArrayKey-type>java.lang.String</SortArrayKey-type>
+					<SortArrayObjectKey>&lt;null&gt;</SortArrayObjectKey>
+					<SortArrayObjectKey-type>java.lang.String</SortArrayObjectKey-type>
+					<Sum>&lt;null&gt;</Sum>
+					<Sum-type>java.lang.String</Sum-type>
+					<VariableName>&lt;null&gt;</VariableName>
+					<VariableName-type>java.lang.String</VariableName-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Simple Mode: true
+Json: %NIGHTSCOUTTREATMENTS&amp;find[eventType]=Temp%20Basal
+Fields: rate,duration,timestamp
+Separator: ,</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%duration
+Json Values
+Values of the fields you got from the json text&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%rate
+Json Values
+Values of the fields you got from the json text&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%timestamp
+Json Values
+Values of the fields you got from the json text&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>Json Field Separator plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>4408964f-b099-4ef8-a9ed-80d4e1d7fed4</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autotools.intent.IntentJson</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autotools</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autotools.activity.ActivityConfigJson</Str>
+			<Int sr="arg3" val="60"/>
+		</Action>
+		<Action sr="act72" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%timestamp</Str>
+			<Str sr="arg1" ve="3">T</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"> </Str>
+		</Action>
+		<Action sr="act73" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%timestamp</Str>
+			<Str sr="arg1" ve="3">Z</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act74" ve="7">
+			<code>596</code>
+			<Str sr="arg0" ve="3">%timestamp</Str>
+			<Int sr="arg1" val="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act75" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%LOOPTEMPBASAL</Str>
+			<Str sr="arg1" ve="3">%rate</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%TIME</lhs>
+					<op>6</op>
+					<rhs>%timestamp+(%duration*60)</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act76" ve="7">
+			<code>690818506</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>%LOOPTEMPBASAL</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>tasker_var</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<tasker_var>%LOOPTEMPBASAL</tasker_var>
+					<tasker_var-type>java.lang.String</tasker_var-type>
+					<tasker_var_name>%LOOPTEMPBASAL</tasker_var_name>
+					<tasker_var_name-type>java.lang.String</tasker_var_name-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">slide.watchFrenzy</Str>
+			<Str sr="arg2" ve="3">slide.watchFrenzy.TaskerSendVariableActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act77" ve="7">
+			<code>300</code>
+			<label>BG Graph</label>
+		</Action>
+		<Action sr="act78" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BG1</Str>
+			<Str sr="arg1" ve="3">%sgv(1)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act79" ve="7">
+			<code>690818506</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>%BG1</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>tasker_var</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<tasker_var>%BG1</tasker_var>
+					<tasker_var-type>java.lang.String</tasker_var-type>
+					<tasker_var_name>%BG1</tasker_var_name>
+					<tasker_var_name-type>java.lang.String</tasker_var_name-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">slide.watchFrenzy</Str>
+			<Str sr="arg2" ve="3">slide.watchFrenzy.TaskerSendVariableActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%LOOPOVERRIDE</Str>
+			<Str sr="arg1" ve="3">~</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act80" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BG2</Str>
+			<Str sr="arg1" ve="3">%sgv(2)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act81" ve="7">
+			<code>690818506</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>%BG2</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>tasker_var</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<tasker_var>%BG2</tasker_var>
+					<tasker_var-type>java.lang.String</tasker_var-type>
+					<tasker_var_name>%BG2</tasker_var_name>
+					<tasker_var_name-type>java.lang.String</tasker_var_name-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">slide.watchFrenzy</Str>
+			<Str sr="arg2" ve="3">slide.watchFrenzy.TaskerSendVariableActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act82" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BG3</Str>
+			<Str sr="arg1" ve="3">%sgv(3)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act83" ve="7">
+			<code>690818506</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>%BG3</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>tasker_var</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<tasker_var>%BG3</tasker_var>
+					<tasker_var-type>java.lang.String</tasker_var-type>
+					<tasker_var_name>%BG3</tasker_var_name>
+					<tasker_var_name-type>java.lang.String</tasker_var_name-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">slide.watchFrenzy</Str>
+			<Str sr="arg2" ve="3">slide.watchFrenzy.TaskerSendVariableActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act84" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BG4</Str>
+			<Str sr="arg1" ve="3">%sgv(4)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act85" ve="7">
+			<code>690818506</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>%BG4</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>tasker_var</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<tasker_var>%BG4</tasker_var>
+					<tasker_var-type>java.lang.String</tasker_var-type>
+					<tasker_var_name>%BG4</tasker_var_name>
+					<tasker_var_name-type>java.lang.String</tasker_var_name-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">slide.watchFrenzy</Str>
+			<Str sr="arg2" ve="3">slide.watchFrenzy.TaskerSendVariableActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act86" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BG5</Str>
+			<Str sr="arg1" ve="3">%sgv(5)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act87" ve="7">
+			<code>690818506</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>%BG5</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>tasker_var</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<tasker_var>%BG5</tasker_var>
+					<tasker_var-type>java.lang.String</tasker_var-type>
+					<tasker_var_name>%BG5</tasker_var_name>
+					<tasker_var_name-type>java.lang.String</tasker_var_name-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">slide.watchFrenzy</Str>
+			<Str sr="arg2" ve="3">slide.watchFrenzy.TaskerSendVariableActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act88" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BG6</Str>
+			<Str sr="arg1" ve="3">%sgv(6)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act89" ve="7">
+			<code>690818506</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>%BG6</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>tasker_var</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<tasker_var>%BG6</tasker_var>
+					<tasker_var-type>java.lang.String</tasker_var-type>
+					<tasker_var_name>%BG6</tasker_var_name>
+					<tasker_var_name-type>java.lang.String</tasker_var_name-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">slide.watchFrenzy</Str>
+			<Str sr="arg2" ve="3">slide.watchFrenzy.TaskerSendVariableActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>1446874931</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<Average>&lt;null&gt;</Average>
+					<Average-type>java.lang.String</Average-type>
+					<Field>override,uploader</Field>
+					<Field-type>java.lang.String</Field-type>
+					<FilterInvert>false</FilterInvert>
+					<FilterInvert-type>java.lang.Boolean</FilterInvert-type>
+					<GetParentValues>false</GetParentValues>
+					<GetParentValues-type>java.lang.Boolean</GetParentValues-type>
+					<InputFormat>&lt;null&gt;</InputFormat>
+					<InputFormat-type>java.lang.String</InputFormat-type>
+					<JoinOutputArray>&lt;null&gt;</JoinOutputArray>
+					<JoinOutputArray-type>java.lang.String</JoinOutputArray-type>
+					<Json>%json</Json>
+					<Json-type>java.lang.String</Json-type>
+					<JsonRootVariable>&lt;null&gt;</JsonRootVariable>
+					<JsonRootVariable-type>java.lang.String</JsonRootVariable-type>
+					<MatchField>&lt;null&gt;</MatchField>
+					<MatchField-type>java.lang.String</MatchField-type>
+					<MatchValue>&lt;null&gt;</MatchValue>
+					<MatchValue-type>java.lang.String</MatchValue-type>
+					<MatchesCaseInsensitive>false</MatchesCaseInsensitive>
+					<MatchesCaseInsensitive-type>java.lang.Boolean</MatchesCaseInsensitive-type>
+					<MatchesContainsAll>false</MatchesContainsAll>
+					<MatchesContainsAll-type>java.lang.Boolean</MatchesContainsAll-type>
+					<MatchesExact>false</MatchesExact>
+					<MatchesExact-type>java.lang.Boolean</MatchesExact-type>
+					<MatchesRegex>false</MatchesRegex>
+					<MatchesRegex-type>java.lang.Boolean</MatchesRegex-type>
+					<Max>&lt;null&gt;</Max>
+					<Max-type>java.lang.String</Max-type>
+					<MaxResults>&lt;null&gt;</MaxResults>
+					<MaxResults-type>java.lang.String</MaxResults-type>
+					<Min>&lt;null&gt;</Min>
+					<Min-type>java.lang.String</Min-type>
+					<Query>&lt;null&gt;</Query>
+					<Query-type>java.lang.String</Query-type>
+					<Separator>,</Separator>
+					<Separator-type>java.lang.String</Separator-type>
+					<SimpleMode>true</SimpleMode>
+					<SimpleMode-type>java.lang.Boolean</SimpleMode-type>
+					<SortArrayInvert>false</SortArrayInvert>
+					<SortArrayInvert-type>java.lang.Boolean</SortArrayInvert-type>
+					<SortArrayKey>&lt;null&gt;</SortArrayKey>
+					<SortArrayKey-type>java.lang.String</SortArrayKey-type>
+					<SortArrayObjectKey>&lt;null&gt;</SortArrayObjectKey>
+					<SortArrayObjectKey-type>java.lang.String</SortArrayObjectKey-type>
+					<Sum>&lt;null&gt;</Sum>
+					<Sum-type>java.lang.String</Sum-type>
+					<VariableName>&lt;null&gt;</VariableName>
+					<VariableName-type>java.lang.String</VariableName-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Simple Mode: true
+Json: %json
+Fields: override,uploader
+Separator: ,</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%override
+Json Values
+Values of the fields you got from the json text&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%uploader
+Json Values
+Values of the fields you got from the json text&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>Json Field Separator plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>33dce2b6-94dc-4379-ba52-ddab6fa40099</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autotools.intent.IntentJson</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autotools</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autotools.activity.ActivityConfigJson</Str>
+			<Int sr="arg3" val="60"/>
+		</Action>
+		<Action sr="act90" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BG7</Str>
+			<Str sr="arg1" ve="3">%sgv(7)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act91" ve="7">
+			<code>690818506</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>%BG7</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>tasker_var</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<tasker_var>%BG7</tasker_var>
+					<tasker_var-type>java.lang.String</tasker_var-type>
+					<tasker_var_name>%BG7</tasker_var_name>
+					<tasker_var_name-type>java.lang.String</tasker_var_name-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">slide.watchFrenzy</Str>
+			<Str sr="arg2" ve="3">slide.watchFrenzy.TaskerSendVariableActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act92" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BG8</Str>
+			<Str sr="arg1" ve="3">%sgv(8)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act93" ve="7">
+			<code>690818506</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>%BG8</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>tasker_var</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<tasker_var>%BG8</tasker_var>
+					<tasker_var-type>java.lang.String</tasker_var-type>
+					<tasker_var_name>%BG8</tasker_var_name>
+					<tasker_var_name-type>java.lang.String</tasker_var_name-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">slide.watchFrenzy</Str>
+			<Str sr="arg2" ve="3">slide.watchFrenzy.TaskerSendVariableActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act94" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BG9</Str>
+			<Str sr="arg1" ve="3">%sgv(9)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act95" ve="7">
+			<code>690818506</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>%BG9</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>tasker_var</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<tasker_var>%BG9</tasker_var>
+					<tasker_var-type>java.lang.String</tasker_var-type>
+					<tasker_var_name>%BG9</tasker_var_name>
+					<tasker_var_name-type>java.lang.String</tasker_var_name-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">slide.watchFrenzy</Str>
+			<Str sr="arg2" ve="3">slide.watchFrenzy.TaskerSendVariableActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act96" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BG10</Str>
+			<Str sr="arg1" ve="3">%sgv(10)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act97" ve="7">
+			<code>690818506</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>%BG10</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>tasker_var</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<tasker_var>%BG10</tasker_var>
+					<tasker_var-type>java.lang.String</tasker_var-type>
+					<tasker_var_name>%BG10</tasker_var_name>
+					<tasker_var_name-type>java.lang.String</tasker_var_name-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">slide.watchFrenzy</Str>
+			<Str sr="arg2" ve="3">slide.watchFrenzy.TaskerSendVariableActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act98" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BG11</Str>
+			<Str sr="arg1" ve="3">%sgv(11)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act99" ve="7">
+			<code>690818506</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>%BG11</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>tasker_var</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<tasker_var>%BG11</tasker_var>
+					<tasker_var-type>java.lang.String</tasker_var-type>
+					<tasker_var_name>%BG11</tasker_var_name>
+					<tasker_var_name-type>java.lang.String</tasker_var_name-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">slide.watchFrenzy</Str>
+			<Str sr="arg2" ve="3">slide.watchFrenzy.TaskerSendVariableActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<cls>com.eveningoutpost.dexdrip.Home</cls>
+			<pkg>com.eveningoutpost.dexdrip</pkg>
+		</Img>
+	</Task>
+</TaskerData>
