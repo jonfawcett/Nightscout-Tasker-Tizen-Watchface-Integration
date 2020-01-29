@@ -2,7 +2,7 @@
 
 ![alt text](https://github.com/jonfawcett/Nightscout-Tasker-Tizen-Watchface-Integration/blob/master/Watch%20Faces/Images/Loop%20Gradient%20Rings.png)
 
-This will give you the instructions to setup watchfaces using tasker to pull directly from Nightscout and send the data to watchmaker for your Samsung watch. This should work for any combination of Android Phone and Samsung or Android Wear watch. If will not work with iPhones or with other watches or fitness bands
+This will give you the instructions to setup watchfaces using tasker to pull directly from Nightscout and send the data to watchmaker for your Samsung watch. This should work for any combination of Android Phone and Samsung or Android Wear watch. If will not work with iPhones or with other watches or fitness bands. [The instructions are all in the Wiki](https://github.com/jonfawcett/Nightscout-Tasker-Tizen-Watchface-Integration/wiki).
 
 I designed this to pull all BG and Loop data and have only tested it with mg/dl. Some of the math, text sizes, etc may need changed for mmol. Head over to the wiki for setup instructions and also how to edit the watchfaces if you are not a Loop user.
 
