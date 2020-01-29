@@ -1,6 +1,6 @@
 # Display Nightscout Data on Samsung Galaxy and Android Wear
 
-![alt text](https://github.com/jonfawcett/Nightscout-Tasker-Tizen-Watchface-Integration/blob/master/Watch%20Faces/Loop%20Gradient%20Rings.png)
+![alt text](https://github.com/jonfawcett/Nightscout-Tasker-Tizen-Watchface-Integration/blob/master/Watch%20Faces/Images/Loop%20Gradient%20Rings.png)
 
 This will give you the instructions to setup watchfaces using tasker to pull directly from Nightscout and send the data to watchmaker for your Samsung watch. This should work for any combination of Android Phone and Samsung or Android Wear watch. If will not work with iPhones or with other watches or fitness bands
 
