@@ -10,7 +10,7 @@ I designed this to pull all BG and Loop data and have only tested it with mg/dl.
 
 **- BG readings**
 
-    Pull the latest BG reading from Nightscout
+   Pull the latest BG reading from Nightscout
 
 **- Delta**
 
