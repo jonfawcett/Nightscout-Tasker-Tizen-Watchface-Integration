@@ -58,5 +58,4 @@ I designed this to pull all BG and Loop data and have only tested it with mg/dl.
 
 
 Special Thanks to Fred for help with the main details of the setup. His method can be used locally with Xdrip if you prefer to not use data.
-
-https://github.com/wagnefrede/xDrip-and-AAPS-Notifications-for-TiZENOS-WEAROS-Watchfaces-Tasker-AutoNotification-Watchmaker/tree/master/Tasker%20Permissions/Tasker%20Permissions
+https://github.com/wagnefrede/xDrip--Tasker-Tizen-Watchface-Integration
